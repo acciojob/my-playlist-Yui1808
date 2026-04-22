@@ -1,1 +1,58 @@
 /*  your css code here. If applicable */
+*{
+	padding:0px;
+	margin:0px;
+}
+h1{
+	text-align:center;
+	margin-bottom:10px;
+}
+h2{
+	text-align:center;
+		margin-bottom:10px;
+}
+.wraper{
+	background-color:rgb(204, 204, 204);
+	padding:10px;
+	display:flex;
+	
+    flex-direction:columns;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	
+	
+}
+.list{
+	background-color:white;
+	border-radius:20px;
+	padding:20px;
+	margin-bottom:10px;
+	border:1px solid black;
+	
+	
+}
+.videocontainer{
+	background-color:white;
+	width:350px;
+	height:360px;
+
+	border:1px solid black;
+	border-radius:20px;
+	text-align:left;
+	
+	
+	
+
+	
+}
+
+.mes{
+	width:340px;
+	height:240px;
+	margin:5px;
+	padding-top:6px;
+}
+a{
+	text-decoration:none;
+}
